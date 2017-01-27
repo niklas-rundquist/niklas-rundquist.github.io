@@ -1,0 +1,69 @@
+html {
+	position: relative; /* Sticky footer style. Don't change. */
+	min-height: 100%; /* Sticky footer style. Don't change. */
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 60px; /* Sticky footer style. Margin bottom by footer height */
+}
+
+.logo {
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	margin-top: 15px;
+}
+
+.top-divider {
+	margin-bottom: 15px;
+}
+
+.panorama {
+	border-radius: 4px;
+}
+
+.thumbnail:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.contact-button {
+	margin-top: 14px;
+}
+
+/* Sticky footer styles */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here and in the body. */
+	background-color: #f5f5f5;
+}
+
+/* Breakpoints */
+/* Reduce headers for smaller screens. */
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 25px;
+	}
+	h2{
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+	h4 {
+		font-size: 14px;
+	}
+}
+
+/* Show one column below and at 400px. */
+@media only screen and (max-width: 400px) {
+	.col-xs-6 {
+		width: 100%;
+	}
+}
