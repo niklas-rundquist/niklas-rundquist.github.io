@@ -46,6 +46,12 @@ body {
     background-color: #eee;
 }
 
+.modal-sm  {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -98,15 +104,3 @@ th {
     	margin: 30px auto;
 	}
 }
-
-/*@media only screen and (min-width: 400px) {
-	.modal-sm  {
-    	width: 300px;
-	}
-}*/
-
-	.modal-sm  {
-    	width: 300px;
-    	margin-right: auto;
-    	margin-left: auto;
-	}
