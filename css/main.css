@@ -41,6 +41,29 @@ body {
 	background-color: #f5f5f5;
 }
 
+.title {
+    font-weight: bold;
+    background-color: #eee;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+th { 
+    text-align: center;
+    background-color: #eee;
+}
+
 /* Breakpoints */
 /* Reduce headers for smaller screens. */
 @media only screen and (max-width: 480px) {
@@ -67,3 +90,23 @@ body {
 		width: 100%;
 	}
 }
+
+/* Override Bootstrap modal width of 600px */
+@media only screen and (min-width: 768px) {
+	.modal-dialog {
+    	width: 758px;
+    	margin: 30px auto;
+	}
+}
+
+/*@media only screen and (min-width: 400px) {
+	.modal-sm  {
+    	width: 300px;
+	}
+}*/
+
+	.modal-sm  {
+    	width: 300px;
+    	margin-right: auto;
+    	margin-left: auto;
+	}
